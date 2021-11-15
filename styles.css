@@ -8,11 +8,19 @@ h1{
     color:#8B89D9;
     text-align:center;
 }
+h2{
+    text-align:center;
+}
+
+.assignments{
+    display:flex;
+    flex-wrap: wrap;
+}
 
 .assignment{
+    width: 22%;
     color:#72F2CE;
-    display: flex;
-    padding: 10px;
+    padding: 20px 10px;
     margin:10px;
     background:#111440;
     border-radius: 10px;
@@ -22,6 +30,8 @@ h1{
     width:200px;
     margin:10px;
     border: 5px solid #38358C;
+    display:block;
+    margin:auto;
 }
 
 .assignment img:hover{
